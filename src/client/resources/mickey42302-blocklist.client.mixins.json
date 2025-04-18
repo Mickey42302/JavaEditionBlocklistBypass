@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.mickey42302.blocklist.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AllowedAddressResolverMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "client-mickey42302-blocklist-refmap.json"
+}
